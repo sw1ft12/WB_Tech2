@@ -1,0 +1,12 @@
+POST http://localhost:8000/create_event
+Content-Type: application/json
+
+{
+ "event_id": 3,
+  "user_id": 1,
+ "title" : "Birthday",
+ "description": "My birthday",
+  "date": "2006-01-25"
+}
+
+
